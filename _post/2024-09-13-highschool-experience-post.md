@@ -1,11 +1,3 @@
-<ul>
-  {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url relative_url }}">{{ post.title }}
-    
-  {% endfor %}
-</ul>
-
 # Tracey's Blog
 
 Hey, my name is Tracey Ordoñez, I am a student at the [Brooklyn STEAM Center](https://brooklynsteamcenter.org/) and am currently studying Full-Stack Development.
