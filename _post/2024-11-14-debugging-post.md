@@ -17,8 +17,11 @@ print(count)
 ```
 The problem with this is the count variable does not increase when a space is input. In order to fix this code we would have to in line 5 add a space between the quotes in order for the code to detect the space.
 <br>
+
 Another example was:
 <img src="/_post/debugger.png" alt= "2nd Example of debugging">
+<br>
+
 The problem presented here is the n is being interpreted as a string and not an integer the code also does not interpret the even numbers as being even and it stops working before the n which leaves out the final number. I solved this issue on line 2 the int() would have to be used in order to make n an integer then changed the < sign to == on line 5. Lastly on line 13 +1 was added so that the final number isn't left out.
 <br>
 After debugging the correct code would be:
